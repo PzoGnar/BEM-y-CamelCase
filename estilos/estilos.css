@@ -1,0 +1,134 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #1c1c1c;
+}
+
+/* Página */
+.pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Encabezado */
+.paginaEncabezado {
+    background-color: #1e90ff;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 5px solid #333;
+}
+
+.paginaTitulo {
+    font-size: 2em;
+    color: white;
+}
+
+/* Secciones */
+.seccion {
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seccionTitulo {
+    font-size: 1.5em;
+    color: #1c1c1c;
+}
+
+.seccionSubtitulo {
+    font-size: 1.2em;
+    color: #0073e6;
+    margin-top: 20px;
+}
+
+.seccionTexto {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Modificadores para las secciones */
+.seccionIntro {
+    background-color: #f9f9f9;
+}
+
+.seccionBem {
+    background-color: #e6f7ff;
+    border-left: 5px solid #1e90ff;
+}
+
+.seccionCamelCase {
+    background-color: #fff8e1;
+    border-left: 5px solid #f9a825;
+}
+
+/* Listas */
+.lista {
+    padding-left: 20px;
+}
+
+.listaOrdenada li,
+.listaDesordenada li {
+    margin-bottom: 10px;
+}
+
+/* Elementos de lista */
+.listaItem {
+    font-size: 1.1em;
+    color: #333;
+}
+.listaCodigo {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1em;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Tabla Comparativa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Recomendaciones */
+.paginaRecomendaciones {
+    background-color: #d4edda;
+    border: 1px solid #28a745;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.paginaRecomendaciones p {
+    font-size: 1.1em;
+    color: #155724;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM y CamelCase</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body class="pagina">
+
+    <header class="paginaEncabezado">
+        <h1 class="paginaTitulo">Metodologías BEM y CamelCase</h1>
+    </header>
+    
+    <main class="paginaContenido">
+
+      <!--Propósito de la página-->
+      <section class="seccion seccionIntro">
+            <h2 class="seccionTitulo">Propósito de la página</h2>
+            <p class="seccionTexto">En esta página se comparan dos metodologías ampliamente utilizadas en el desarrollo de software: BEM (Block Element Modifier) y CamelCase.</p>
+      </section>
+
+      <!-- Metodología BEM -->
+      <section class="seccion seccionBem">
+        <h2 class="seccionTitulo">Metodología BEM</h2>
+        <p class="seccionTexto">BEM (Block Element Modifier) es una metodología para escribir código CSS que hace uso de una convención para nombrar clases, que busca hacer los estilos más reutilizables, escalables y fáciles de entender.</p>
+
+        <h3 class="seccionSubtitulo">Ventajas de usar BEM</h3>
+        <ol class="lista listaOrdenada">
+            <li class="listaItem">Facilita la reutilización de componentes.</li>
+            <li class="listaItem">Mejora la mantenibilidad del código.</li>
+            <li class="listaItem">Evita la sobrecarga de estilos debido a la estructura modular.</li>
+            <li class="listaItem">Hace que el código sea más comprensible para otros desarrolladores.</li>
+            <li class="listaItem">Permite una mejor organización en proyectos grandes.</li>
+        </ol>
+
+        <h3 class="seccionSubtitulo">Ejemplos de código usando BEM</h3>
+        <ul class="lista listaDesordenada">
+            <li class="listaCodigo"><code>block__element--modifier</code></li>
+            <li class="listaCodigo"><code>btn__icon--large</code></li>
+            <li class="listaCodigo"><code>nav__item--active</code></li>
+        </ul>
+      </section>
+
+      <!-- Metodología CamelCase -->
+      <section class="seccion seccionCamelCase">
+        <h2 class="seccionTitulo">Metodología CamelCase</h2>
+        <p class="seccionTexto">CamelCase es una convención de nomenclatura en la que las palabras se concatenan sin espacios y la primera letra de cada palabra, excepto la primera, se escribe en mayúsculas.</p>
+
+        <h3 class="seccionSubtitulo">Situaciones donde se usa CamelCase</h3>
+        <ol class="lista listaOrdenada">
+            <li class="listaItem">En nombres de variables y funciones en lenguajes de programación como JavaScript.</li>
+            <li class="listaItem">En el nombre de clases y métodos en algunas bibliotecas o frameworks.</li>
+            <li class="listaItem">En la nomenclatura de archivos y carpetas en ciertos sistemas.</li>
+            <li class="listaItem">Para identificar objetos y propiedades en programación orientada a objetos.</li>
+        </ol>
+
+        <h3 class="seccionSubtitulo">Ejemplos de código usando CamelCase</h3>
+        <ul class="lista listaDesordenada">
+            <li class="listaCodigo"><code>myVariableName</code></li>
+            <li class="listaCodigo"><code>calculateTotalAmount</code></li>
+            <li class="listaCodigo"><code>getUserInfo</code></li>
+        </ul>
+      </section>
+
+      <!-- Comparativa entre BEM y CamelCase -->
+      <section class="seccion">
+        <h2 class="seccionTitulo">Tabla comparativa entre BEM y CamelCase</h2>
+        <table class="tablaComparativa">
+            <thead>
+                <tr>
+                    <th>Características</th>
+                    <th>BEM</th>
+                    <th>CamelCase</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Uso principal</td>
+                    <td>CSS y estructuras de clases</td>
+                    <td>Variables, funciones, y nombres de objetos</td>
+                </tr>
+                <tr>
+                    <td>Formato</td>
+                    <td>block__element--modifier</td>
+                    <td>myVariableName</td>
+                </tr>
+                <tr>
+                    <td>Legibilidad</td>
+                    <td>Muy legible y descriptivo</td>
+                    <td>Depende del contexto y la longitud</td>
+                </tr>
+                <tr>
+                    <td>Facilidad de mantenimiento</td>
+                    <td>Excelente en proyectos grandes</td>
+                    <td>Menos estructurado, pero efectivo para pequeñas bases de código</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+
+      <!-- Recomendaciones -->
+      <section class="paginaRecomendaciones">
+        <h2>¿Cuándo usar cada metodología?</h2>
+        <p><strong>BEM</strong> se recomienda cuando trabajas en proyectos grandes, donde la escalabilidad y reutilización de los componentes es crucial. Es ideal para mantener el CSS organizado y evitar conflictos entre clases.</p>
+        <p><strong>CamelCase</strong> es más adecuado cuando trabajas en la programación de lógica de código, como en la creación de variables, funciones y métodos, especialmente en lenguajes como JavaScript o Java.</p>
+      </section>
+
+    </main>
+
+</body>
+</html>
